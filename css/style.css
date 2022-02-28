@@ -1,0 +1,53 @@
+/* Styles for each page */
+@import url(new-password.css);
+
+/* Reset default user agent styles */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS variables */
+:root {
+  /* colors */
+  --bg-color: #c7c7c7;
+  --text-input-field: #f7f7f7;
+  --primary-color: #acd9b2;
+  --white: #ffffff;
+  --black: #000000;
+  --darkk: #232830;
+
+  /* typography */
+  --body-font: 1.125rem;
+
+  /* sizes */
+  --border-radius: 10px;
+}
+
+/* Base styles - Mobile version */
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Enlaces directos para los íconos y logos */
+
+/* ICONOS */
+/* https://svgshare.com/i/eiG.svg cart icon */
+/* https://svgshare.com/i/ek2.svg added to cart icon */
+/* https://svgshare.com/i/ejA.svg email icon */
+/* https://svgshare.com/i/eiy.svg right arrow icon */
+/* https://svgshare.com/i/ejs.svg burger menu icon */
+/* https://svgshare.com/i/eiz.svg shopping cart icon */
+/* https://svgshare.com/i/ei9.svg shopping cart notification icon */
+
+/* LOGOS */
+/* https://svgshare.com/i/eiH.svg favicon bota fora */
+/* https://svgshare.com/i/ehx.svg favicon Yard Sale */
+/* https://svgshare.com/i/eiX.svg logo bota fora */
+/* https://svgshare.com/i/ekB.svg logo yard sale */
