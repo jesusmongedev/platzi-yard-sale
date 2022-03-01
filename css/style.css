@@ -8,9 +8,8 @@
   box-sizing: border-box;
 }
 
-* {
+body {
   margin: 0;
-  padding: 0;
 }
 
 /* CSS variables */
@@ -19,12 +18,15 @@
   --bg-color: #c7c7c7;
   --text-input-field: #f7f7f7;
   --primary-color: #acd9b2;
-  --white: #ffffff;
-  --black: #000000;
+  --white: #fff;
+  --black: #000;
   --darkk: #232830;
+  --subtittle-color: #797979
 
   /* typography */
-  --body-font: 1.125rem;
+  --sm-font: 0.875rem;
+  --md-font: 1rem;
+  --lg-font: 1.125rem;
 
   /* sizes */
   --border-radius: 10px;
