@@ -1,5 +1,9 @@
+/* Font family */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+
 /* Styles for each page */
 @import url(new-password.css);
+@import url(password-recovery-2.css);
 
 /* Reset default user agent styles */
 *,
@@ -12,6 +16,11 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* CSS variables */
 :root {
   /* colors */
@@ -20,8 +29,10 @@ body {
   --primary-color: #acd9b2;
   --white: #fff;
   --black: #000;
-  --darkk: #232830;
+  --dark: #232830;
   --subtittle-color: #797979
+  --icon-oval-bg: #D8D8D8;
+
 
   /* typography */
   --sm-font: 0.875rem;
@@ -53,3 +64,11 @@ body {
 /* https://svgshare.com/i/ehx.svg favicon Yard Sale */
 /* https://svgshare.com/i/eiX.svg logo bota fora */
 /* https://svgshare.com/i/ekB.svg logo yard sale */
+
+/* Sign up button */
+.sign-up-button {
+  margin-top: 104px;
+  background-color: var(--white);
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}

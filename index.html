@@ -5,24 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Yard Sale</title>
+    <title>Create new password</title>
   </head>
   <body>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse laborum
-      vitae voluptatem consectetur in eius libero, aut consequatur tenetur.
-      Reprehenderit, eveniet laudantium. Eaque, ut sapiente? Iure, iste quae.
-      Unde.
-    </p>
-
-    <a href="new-password.html"
-      ><img src="https://svgshare.com/i/ekB.svg" alt="Yard Sale Logo"
-    /></a>
+    <header class="header">
+      <img
+        src="https://svgshare.com/i/ekB.svg"
+        alt="Yard Sale Logo"
+        class="header__logo"
+      />
+    </header>
+    <main class="form-container">
+      <form action="new-password.html" class="form">
+        <label for="email" class="form__label">Email address</label
+        ><input
+          type="email"
+          id="email"
+          placeholder="jmonge.swe@gmail.com"
+          required
+          class="form__input"
+        />
+        <label for="new-password" class="form__label">Password</label
+        ><input
+          type="password"
+          id="new-password"
+          placeholder="************"
+          required
+          class="form__input"
+        />
+        <input
+          type="submit"
+          value="Login"
+          class="primary-button login-button"
+        />
+        <p class="aditional-description">
+          <a href="new-password.html" class="aditional-anchor"
+            >Forgot my password</a
+          >
+        </p>
+        <input
+          type="submit"
+          value="Sign up"
+          class="primary-button login-button sign-up-button"
+        />
+      </form>
+    </main>
   </body>
 </html>
