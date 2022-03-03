@@ -31,7 +31,6 @@ a {
   --black: #000;
   --dark: #232830;
   --subtittle-color: #797979
-  --icon-oval-bg: #D8D8D8;
 
 
   /* typography */
@@ -65,10 +64,31 @@ body {
 /* https://svgshare.com/i/eiX.svg logo bota fora */
 /* https://svgshare.com/i/ekB.svg logo yard sale */
 
+.header__logo--lg {
+  width: 212px;
+}
+
 /* Sign up button */
 .sign-up-button {
-  margin-top: 104px;
+  position: absolute;
+  bottom: 26px;
+  width: min(93.75%, 340px);
+  margin: 0 auto;
   background-color: var(--white);
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   color: var(--primary-color);
+  border-radius: var(--border-radius);
+  background-color: var(--white);
+  padding: 15.8px 0;
+  font-weight: 700;
+  font-size: var(--md-font);
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .header__logo {
+    display: none;
+  }
+  .sign-up-button {
+    bottom: 164px;
+  }
 }
