@@ -24,22 +24,16 @@ a {
 
 /* CSS variables */
 :root {
-  /* colors */
   --bg-color: #c7c7c7;
   --text-input-field: #f7f7f7;
   --primary-color: #acd9b2;
   --white: #fff;
   --black: #000;
   --dark: #232830;
-  --subtittle-color: #797979
-
-
-  /* typography */
+  --subtittle-color: #797979;
   --sm-font: 0.875rem;
   --md-font: 1rem;
   --lg-font: 1.125rem;
-
-  /* sizes */
   --border-radius: 10px;
 }
 
@@ -65,8 +59,16 @@ body {
 /* https://svgshare.com/i/eiX.svg logo bota fora */
 /* https://svgshare.com/i/ekB.svg logo yard sale */
 
+/* Home login page logo large modifier */
 .header__logo--lg {
   width: 212px;
+}
+
+/* Password Recovery subtittle fix width modifier */
+.recovery-subtittle--width {
+  width: 256px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Secondary Button */
@@ -96,4 +98,13 @@ body {
   .sign-up-button {
     bottom: 164px;
   }
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
+}
+.text-container span:first-child {
+  font-size: var(--sm-font);
 }
