@@ -1,8 +1,43 @@
 .main-container {
   display: flex;
-  gap: 24px;
   align-items: center;
   flex-direction: column;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.search-container__input {
+  color: var(--bg-color);
+  margin-top: 20px;
+}
+.search-container__input::placeholder {
+  color: inherit;
+}
+
+.product-types {
+  font-weight: 500;
+  color: var(--subtittle-color);
+}
+.product-types__name {
+  margin-right: 1.6em;
+}
+.product-types__name--active {
+  padding: 6px 14px;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  color: var(--primary-color);
+}
+
+.form-container__filter {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: var(--sm-font);
+}
+.bottom-arrow-icon {
+  transform: rotate(90deg);
 }
 
 .cards-container {
