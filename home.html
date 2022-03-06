@@ -15,22 +15,26 @@
   <body>
     <main class="form-container">
       <section class="search-container">
-        <input
-          type="search"
-          placeholder="🔍 Search product"
-          class="form__input search-container__input"
-        />
+        <div class="search-input-container form__input">
+          <img src="https://svgshare.com/i/eub.svg" alt="glass icon" />
+          <input
+            type="search"
+            placeholder="Search product"
+            class="search-container__input"
+          />
+        </div>
         <div class="product-types">
           <span class="product-types__name product-types__name--active">
             <a href="index.html">All</a></span
           ><span class="product-types__name">Clothes</span
           ><span class="product-types__name">Electronics</span
           ><span class="product-types__name">Furniture</span>
-          <!-- <span class="product-types__name">Toy</span> -->
+          <span class="product-types__name">Toy</span>
+          <span class="product-types__name">Others</span>
         </div>
-        <div class="form-container__filter">
-          <b>Order:</b
-          ><span>
+        <div class="product-filter">
+          <span class="product-filter__name">Order:</span>
+          <span class="product-filter__details">
             Most recent
             <img
               src="https://svgshare.com/i/eiy.svg"
@@ -71,9 +75,9 @@
               <p class="card-description-name">Retro refrigerator</p>
             </div>
             <img
-              src="https://svgshare.com/i/eiG.svg"
-              alt="shopping cart icon"
-              class="cart-icon-img"
+              src="https://svgshare.com/i/ek2.svg"
+              alt="added to cart icon"
+              class="added-cart-icon-img"
             />
           </div>
         </article>
