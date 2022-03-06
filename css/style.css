@@ -1,10 +1,11 @@
 /* Font family */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&family=Roboto:wght@700&display=swap');
 
 /* Styles for each page */
 @import url(new-password.css);
 @import url(password-recovery-2.css);
 @import url(create-account.css);
+@import url(home.css);
 
 /* Reset default user agent styles */
 *,
@@ -24,6 +25,7 @@ a {
 
 /* CSS variables */
 :root {
+  /* colors */
   --bg-color: #c7c7c7;
   --text-input-field: #f7f7f7;
   --primary-color: #acd9b2;
@@ -31,9 +33,12 @@ a {
   --black: #000;
   --dark: #232830;
   --subtittle-color: #797979;
+  /* typography */
+  --price-font: 'Roboto', sans-serif;
   --sm-font: 0.875rem;
   --md-font: 1rem;
   --lg-font: 1.125rem;
+  /* sizes */
   --border-radius: 10px;
 }
 
