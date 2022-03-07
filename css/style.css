@@ -57,7 +57,7 @@ body {
 /* https://svgshare.com/i/ejs.svg burger menu icon */
 /* https://svgshare.com/i/eiz.svg shopping cart icon */
 /* https://svgshare.com/i/ei9.svg shopping cart notification icon */
-/* https://svgshare.com/i/eub.svg glass icon */
+/* https://svgshare.com/i/eyS.svg glass icon */
 
 /* LOGOS */
 /* https://svgshare.com/i/eiH.svg favicon bota fora */
@@ -66,7 +66,7 @@ body {
 /* https://svgshare.com/i/ekB.svg logo yard sale */
 
 /* Home login page logo large modifier */
-.header__logo--lg {
+.section__logo--lg {
   width: 212px;
 }
 
@@ -98,7 +98,7 @@ body {
   bottom: 26px;
 }
 @media screen and (min-width: 768px) {
-  .header__logo {
+  .section__logo {
     display: none;
   }
   .sign-up-button {
