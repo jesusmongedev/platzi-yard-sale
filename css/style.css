@@ -1,11 +1,12 @@
 /* Font family */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700;900&family=Roboto:wght@700&display=swap');
 
 /* Styles for each page */
 @import url(new-password.css);
 @import url(password-recovery-2.css);
 @import url(create-account.css);
 @import url(home.css);
+@import url(menu-mobile.css);
 
 /* Reset default user agent styles */
 *,
@@ -14,14 +15,35 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
 }
 
 a {
   text-decoration: none;
   color: inherit;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*--- end of reset ----*/
 
 /* CSS variables */
 :root {

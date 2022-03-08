@@ -1,0 +1,27 @@
+.menu-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+  padding: 2.5em 2.5em 0;
+  font-size: var(--md-font);
+  font-weight: 900;
+}
+.categories__tittle {
+  font-size: inherit;
+  text-transform: uppercase;
+}
+.menu-mobile__containers li {
+  margin-bottom: 2.25em;
+}
+.menu-mobile__sign-out {
+  font-size: var(--sm-font);
+  position: absolute;
+  bottom: 3.5em;
+}
+.menu-email {
+  font-weight: 300;
+  margin-bottom: 0.43em;
+}
+.menu-sign-out {
+  color: var(--primary-color);
+}
