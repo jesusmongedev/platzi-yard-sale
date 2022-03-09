@@ -1,0 +1,42 @@
+.my-order__tittle {
+  font-size: inherit;
+}
+.cards-container--column {
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+}
+.cards-container--column:last-child {
+  margin-bottom: 1.5em;
+}
+.product-card--flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img-tittle {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.product-card__img--small {
+  width: 76px;
+  margin-bottom: 0;
+}
+.card-description-price--margin {
+  margin-right: 1.125em;
+}
+
+.order-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.25em 0;
+  padding: 1em 1.125em;
+  background-color: var(--text-input-field);
+  border-radius: var(--border-radius);
+}
+.order-articles {
+  font-size: var(--sm-font);
+  color: var(--subtittle-color);
+  line-height: 1.75rem;
+}
