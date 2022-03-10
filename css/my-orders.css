@@ -1,0 +1,15 @@
+.order-info-container--remove-bg {
+  background-color: transparent;
+  padding-bottom: 0;
+  margin: 0.75em 0;
+}
+.order-info-container--remove-bg:nth-child(1) {
+  margin-top: 1.25em;
+}
+.card-description-container {
+  display: flex;
+  gap: 1.5em;
+}
+.card-description-arrow {
+  cursor: pointer;
+}
