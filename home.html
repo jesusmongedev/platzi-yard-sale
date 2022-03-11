@@ -13,8 +13,8 @@
     />
   </head>
   <body>
-    <header class="header form-container">
-      <a href="menu-mobile.html">
+    <header class="header">
+      <a href="menu-mobile.html" class="menu-anchor">
         <img
           src="https://svgshare.com/i/ejs.svg"
           alt="Menu icon"
@@ -24,12 +24,29 @@
         <img
           src="https://svgshare.com/i/ekB.svg"
           alt="Yard Sale logo"
-          class="header__logo"
-        /> </a
-      ><img
+          class="header__logo header__logo--md"
+        />
+      </a>
+      <ul class="nav-links product-types">
+        <li class="product-types__name"><a href="#">All</a></li>
+        <li class="product-types__name"><a href="#">Clothes</a></li>
+        <li class="product-types__name"><a href="#">Electronics</a></li>
+        <li class="product-types__name"><a href="#">Furniture</a></li>
+        <li class="product-types__name"><a href="#">Toys</a></li>
+        <li class="product-types__name"><a href="#">Others</a></li>
+      </ul>
+      <div class="user-info">
+        <p class="user-info__email">jmonge.swe@gmail.com</p>
+        <img
+          src="https://svgshare.com/i/eiy.svg"
+          alt="bottom arrow"
+          class="bottom-arrow-icon bottom-arrow-icon--margin"
+        />
+      </div>
+      <img
         src="https://svgshare.com/i/ei9.svg"
         alt="Shopping cart notification icon"
-        class="header__notificacion-icon"
+        class="header__notificacion-icon header__notificacion-icon-margin"
       />
     </header>
     <main>
@@ -47,7 +64,7 @@
           ><span class="product-types__name"><a href="#">Clothes</a></span
           ><span class="product-types__name"><a href="#">Electronics</a></span
           ><span class="product-types__name"><a href="#">Furniture</a></span>
-          <span class="product-types__name"><a href="#">Toy</a></span>
+          <span class="product-types__name"><a href="#">Toys</a></span>
           <span class="product-types__name"><a href="#">Others</a></span>
         </div>
         <div class="product-filter">
