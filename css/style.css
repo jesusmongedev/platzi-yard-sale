@@ -9,6 +9,7 @@
 @import url(menu-mobile.css);
 @import url(my-order.css);
 @import url(my-orders.css);
+@import url(product-details.css);
 
 /* Reset default user agent styles */
 *,
@@ -80,6 +81,7 @@ body {
 /* https://svgshare.com/i/eiy.svg right arrow icon */
 /* https://svgshare.com/i/ejs.svg burger menu icon */
 /* https://svgshare.com/i/eiz.svg shopping cart icon */
+/* https://svgshare.com/i/f83.svg shopping cart icon white */
 /* https://svgshare.com/i/ei9.svg shopping cart notification icon */
 /* https://svgshare.com/i/eyS.svg glass icon */
 
@@ -110,8 +112,9 @@ body {
   border-radius: var(--border-radius);
   background-color: var(--white);
   padding: 15.8px 0;
+  font-family: inherit;
   font-weight: 700;
-  font-size: var(--md-font);
+  font-size: var(--lg-font);
   cursor: pointer;
 }
 
