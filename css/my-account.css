@@ -1,0 +1,5 @@
+.form__input--no-bg {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 2em;
+}

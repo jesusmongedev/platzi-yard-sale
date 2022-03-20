@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My account</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://svgshare.com/i/ehx.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="menu-mobile.html" class="menu-anchor">
+        <img
+          src="https://svgshare.com/i/ejs.svg"
+          alt="Menu icon"
+          class="header__menu-icon"
+        /> </a
+      ><a href="index.html">
+        <img
+          src="https://svgshare.com/i/ekB.svg"
+          alt="Yard Sale logo"
+          class="header__logo header__logo--md"
+        />
+      </a>
+      <ul class="nav-links product-types">
+        <li class="product-types__name"><a href="#">All</a></li>
+        <li class="product-types__name"><a href="#">Clothes</a></li>
+        <li class="product-types__name"><a href="#">Electronics</a></li>
+        <li class="product-types__name"><a href="#">Furniture</a></li>
+        <li class="product-types__name"><a href="#">Toys</a></li>
+        <li class="product-types__name"><a href="#">Others</a></li>
+      </ul>
+      <div class="user-info">
+        <p class="user-info__email">jmonge@gmail.com</p>
+        <img
+          src="https://svgshare.com/i/eiy.svg"
+          alt="bottom arrow"
+          class="bottom-arrow-icon bottom-arrow-icon--margin"
+        />
+      </div>
+      <a href="shopping-cart.html">
+        <img
+          src="https://svgshare.com/i/ei9.svg"
+          alt="Shopping cart notification icon"
+          class="header__notificacion-icon header__notificacion-icon-margin"
+        />
+      </a>
+    </header>
+    <main class="form-container">
+      <div class="form-text form-text--left">
+        <h1 class="form-text__tittle">My account</h1>
+      </div>
+      <form action="my-account-edit.html" class="form">
+        <label for="name" class="form__label">Name</label>
+        <p class="form__input form__input--no-bg">Jesus Monge</p>
+        <label for="email" class="form__label">Email address</label>
+        <p class="form__input form__input--no-bg">jmonge.swe@gmail.com</p>
+        <label for="password" class="form__label">Password</label>
+        <p class="form__input form__input--no-bg">************</p>
+        <input
+          type="submit"
+          value="Edit"
+          class="secondary-button sign-up-button"
+        />
+      </form>
+    </main>
+  </body>
+</html>
