@@ -43,6 +43,7 @@
 
 .card-description__text {
   margin-bottom: 3.375em;
+  color: var(--subtittle-color);
 }
 
 .primary-button--flex {

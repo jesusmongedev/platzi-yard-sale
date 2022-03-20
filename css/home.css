@@ -14,53 +14,6 @@
 .user-info__email {
   font-size: var(--sm-font);
 }
-@media screen and (min-width: 768px) {
-  .header {
-    padding: 1em 2em;
-  }
-  .menu-anchor {
-    display: none;
-  }
-  .header__logo--md {
-    width: 144px;
-  }
-  .header .nav-links {
-    display: flex;
-    height: auto;
-    flex: 1;
-    gap: 0em;
-    margin-left: 1em;
-    font-size: var(--md-font);
-  }
-  .user-info {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  .user-info__email {
-    display: none;
-  }
-  .header__notificacion-icon-margin {
-    margin-left: 1em;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .header {
-    padding: 1em 3.25em;
-  }
-  .header .nav-links {
-    margin-left: 3.25em;
-  }
-  .header__notificacion-icon-margin {
-    margin-left: 2em;
-  }
-  .user-info__email {
-    display: block;
-  }
-  .user-info .bottom-arrow-icon--margin {
-    margin-left: 0.75em;
-  }
-}
 
 .search-container {
   display: flex;
@@ -132,6 +85,7 @@
   justify-content: center;
 }
 .product-card {
+  position: relative;
   width: 145px;
 }
 
@@ -139,6 +93,22 @@
   width: 100%;
   border-radius: 20px;
   margin-bottom: 6px;
+}
+.product-card:hover::after {
+  content: 'Removed from cart';
+  padding: 0.35em 2em;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  width: 90%;
+  height: max-content;
+  font-size: var(--sm-font);
+  font-weight: 500;
+  text-align: center;
+  color: var(--removed-color);
+  background: #fff;
+  opacity: 0.8;
+  border-radius: var(--border-radius);
 }
 
 .product-card__info {
@@ -157,6 +127,35 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    padding: 1em 2em;
+  }
+  .menu-anchor {
+    display: none;
+  }
+  .header__logo--md {
+    width: 144px;
+  }
+  .header .nav-links {
+    display: flex;
+    height: auto;
+    flex: 1;
+    gap: 0em;
+    margin-left: 1em;
+    font-size: var(--md-font);
+  }
+  .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .user-info__email {
+    display: none;
+  }
+  .header__notificacion-icon-margin {
+    margin-left: 1em;
+  }
+
   .cards-container {
     grid-template-columns: repeat(auto-fill, 240px);
     gap: 2em;
@@ -184,4 +183,22 @@
   height: 40px;
   border-radius: 50%;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 1em 3.25em;
+  }
+  .header .nav-links {
+    margin-left: 3.25em;
+  }
+  .header__notificacion-icon-margin {
+    margin-left: 2em;
+  }
+  .user-info__email {
+    display: block;
+  }
+  .user-info .bottom-arrow-icon--margin {
+    margin-left: 0.75em;
+  }
 }

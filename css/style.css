@@ -59,6 +59,7 @@ img {
   --black: #000;
   --dark: #232830;
   --subtittle-color: #797979;
+  --removed-color: #454545;
   /* typography */
   --price-font: 'Roboto', sans-serif;
   --sm-font: 0.875rem;
