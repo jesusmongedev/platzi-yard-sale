@@ -19,6 +19,7 @@
 .search-container {
   display: flex;
   flex-direction: column;
+  padding: 0 1.25em;
   gap: 20px;
 }
 .search-input-container {
@@ -155,6 +156,26 @@
   }
   .header__notificacion-icon-margin {
     margin-left: 1em;
+  }
+
+  .search-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    margin: 1em 0;
+    padding: 0 4.5em;
+  }
+
+  .search-input-container {
+    width: 340px;
+  }
+
+  .product-types {
+    display: none;
+  }
+
+  .product-filter {
+    margin-bottom: 0;
   }
 
   .cards-container {
