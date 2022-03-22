@@ -228,9 +228,9 @@
     width: 55vw;
   }
   .cards-container {
-    grid-template-columns: repeat(auto-fill, 220px);
+    grid-template-columns: repeat(auto-fill, 227px);
   }
   .product-card {
-    width: 220px;
+    width: 227px;
   }
 }
