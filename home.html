@@ -35,15 +35,28 @@
         <li class="product-types__name"><a href="#">Toys</a></li>
         <li class="product-types__name"><a href="#">Others</a></li>
       </ul>
-      <div class="user-info">
-        <p class="user-info__email">jmonge@gmail.com</p>
-        <img
-          src="https://svgshare.com/i/eiy.svg"
-          alt="bottom arrow"
-          class="bottom-arrow-icon bottom-arrow-icon--margin"
-        />
-      </div>
-      <a href="shopping-cart.html">
+      <details class="user-toggle">
+        <summary class="user-info user-toggle__tittle">
+          <p class="user-info__email">jmonge@gmail.com</p>
+          <img
+            src="https://svgshare.com/i/eiy.svg"
+            alt="bottom arrow"
+            class="bottom-arrow-icon bottom-arrow-icon--margin"
+          />
+        </summary>
+        <ul>
+          <a href="my-orders.html">
+            <li>My orders</li>
+          </a>
+          <a href="my-account.html">
+            <li>My account</li>
+          </a>
+          <a href="index.html">
+            <li class="user-sign-out">Sign out</li>
+          </a>
+        </ul>
+      </details>
+      <a href="shopping-cart.html" class="shopping-cart-link">
         <img
           src="https://svgshare.com/i/ei9.svg"
           alt="Shopping cart notification icon"
