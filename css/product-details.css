@@ -90,7 +90,7 @@
     gap: 2em;
     max-width: 800px;
   }
-  .product-card__info:hover::after {
+  .product-card__info--column:hover::after {
     width: 30%;
     left: 1.25em;
     top: calc(50% - 27.8px);

@@ -56,14 +56,111 @@
           </a>
         </ul>
       </details>
-      <a href="shopping-cart.html" class="shopping-cart-link">
+      <button class="shopping-cart-link">
         <img
           src="https://svgshare.com/i/ei9.svg"
           alt="Shopping cart notification icon"
           class="header__notificacion-icon header__notificacion-icon-margin"
         />
-      </a>
+      </button>
     </header>
+    <!-- Shopping Cart Details start -->
+    <div class="shopping-cart-container">
+      <div class="shopping-cart__header">
+        <img
+          class="left-arrow"
+          src="https://svgshare.com/i/fcq.svg"
+          alt="left arrow"
+        />
+        <h2 class="form-text__tittle form-text__tittle--lg">Shopping cart</h2>
+      </div>
+      <div
+        class="cards-container cards-container--column cards-container--margin-top"
+      >
+        <article class="product-card--flex">
+          <div class="card-img-tittle">
+            <img
+              src="https://i.postimg.cc/8P9gGbPz/round-shelf.png"
+              alt="Round shelf"
+              class="product-card__img product-card__img--small"
+            />
+            <p class="card-description-name">Round shelf</p>
+          </div>
+          <p class="card-description-price card-description-price--margin">
+            $ 120,00
+            <img
+              src="https://svgshare.com/i/f9y.svg"
+              alt="Delete item icon"
+              class="delete-item-icon"
+            />
+          </p>
+        </article>
+        <article class="product-card--flex">
+          <div class="card-img-tittle">
+            <img
+              src="https://i.postimg.cc/tJDj6Gzp/Bitmap.png"
+              alt="Retro refrigerator"
+              class="product-card__img product-card__img--small"
+            />
+            <p class="card-description-name">Retro fridge</p>
+          </div>
+          <p class="card-description-price card-description-price--margin">
+            $ 100,00
+            <img
+              src="https://svgshare.com/i/f9y.svg"
+              alt="Delete item icon"
+              class="delete-item-icon"
+            />
+          </p>
+        </article>
+        <article class="product-card--flex">
+          <div class="card-img-tittle">
+            <img
+              src="https://i.postimg.cc/8P9gGbPz/round-shelf.png"
+              alt="Round shelf"
+              class="product-card__img product-card__img--small"
+            />
+            <p class="card-description-name">Round shelf</p>
+          </div>
+          <p class="card-description-price card-description-price--margin">
+            $ 120,00
+            <img
+              src="https://svgshare.com/i/f9y.svg"
+              alt="Delete item icon"
+              class="delete-item-icon"
+            />
+          </p>
+        </article>
+        <article class="product-card--flex">
+          <div class="card-img-tittle">
+            <img
+              src="https://i.postimg.cc/tJDj6Gzp/Bitmap.png"
+              alt="Retro refrigerator"
+              class="product-card__img product-card__img--small"
+            />
+            <p class="card-description-name">Retro fridge</p>
+          </div>
+          <p class="card-description-price card-description-price--margin">
+            $ 100,00
+            <img
+              src="https://svgshare.com/i/f9y.svg"
+              alt="Delete item icon"
+              class="delete-item-icon"
+            />
+          </p>
+        </article>
+      </div>
+      <div class="order-info-container">
+        <div class="my-order-info__description">
+          <h3 class="my-order__tittle">Total</h3>
+        </div>
+        <p class="card-description-price">$ 560.00</p>
+      </div>
+      <button class="primary-button primary-button--full-width">
+        Checkout
+      </button>
+    </div>
+    <!-- Shopping Cart Details end -->
     <main>
       <section class="search-container">
         <div class="search-input-container form__input">
@@ -277,61 +374,10 @@
             />
           </div>
         </article>
-        <article class="product-card">
-          <img
-            src="https://i.postimg.cc/8P9gGbPz/round-shelf.png"
-            alt="Round shelf"
-            class="product-card__img"
-          />
-          <div class="product-card__info">
-            <div class="card-description">
-              <p class="card-description-price">$ 120,00</p>
-              <p class="card-description-name">Round shelf</p>
-            </div>
-            <img
-              src="https://svgshare.com/i/eiG.svg"
-              alt="shopping cart icon"
-              class="cart-icon-img"
-            />
-          </div>
-        </article>
-        <article class="product-card">
-          <img
-            src="https://i.postimg.cc/8P9gGbPz/round-shelf.png"
-            alt="Round shelf"
-            class="product-card__img"
-          />
-          <div class="product-card__info">
-            <div class="card-description">
-              <p class="card-description-price">$ 120,00</p>
-              <p class="card-description-name">Round shelf</p>
-            </div>
-            <img
-              src="https://svgshare.com/i/eiG.svg"
-              alt="shopping cart icon"
-              class="cart-icon-img"
-            />
-          </div>
-        </article>
-        <article class="product-card">
-          <img
-            src="https://i.postimg.cc/8P9gGbPz/round-shelf.png"
-            alt="Round shelf"
-            class="product-card__img"
-          />
-          <div class="product-card__info">
-            <div class="card-description">
-              <p class="card-description-price">$ 120,00</p>
-              <p class="card-description-name">Round shelf</p>
-            </div>
-            <img
-              src="https://svgshare.com/i/eiG.svg"
-              alt="shopping cart icon"
-              class="cart-icon-img"
-            />
-          </div>
-        </article>
       </section>
     </main>
+
+    <!-- JavaScript File to add interaction  -->
+    <script src="main.js"></script>
   </body>
 </html>

@@ -40,6 +40,11 @@
   color: var(--primary-color);
 }
 
+.shopping-cart-link {
+  background-color: transparent;
+  border: none;
+}
+
 .user-info {
   display: none;
 }
