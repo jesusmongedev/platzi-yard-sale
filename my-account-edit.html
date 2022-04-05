@@ -14,13 +14,13 @@
   </head>
   <body>
     <header class="header">
-      <a href="menu-mobile.html" class="menu-anchor">
-        <img
-          src="./assets/icon_menu.svg"
-          alt="Menu icon"
-          class="header__menu-icon"
-        /> </a
-      ><a href="index.html">
+      <img
+        src="./assets/icon_menu.svg"
+        alt="Menu icon"
+        class="header__menu-icon menu-anchor"
+      />
+
+      <a href="index.html">
         <img
           src="./assets/logo_yard_sale.svg"
           alt="Yard Sale logo"
@@ -35,21 +35,34 @@
         <li class="product-types__name"><a href="#">Toys</a></li>
         <li class="product-types__name"><a href="#">Others</a></li>
       </ul>
-      <div class="user-info">
-        <p class="user-info__email">jmonge@gmail.com</p>
-        <img
-          src="./assets/flechita.svg"
-          alt="bottom arrow"
-          class="bottom-arrow-icon bottom-arrow-icon--margin"
-        />
-      </div>
-      <a href="#">
+      <details class="user-toggle">
+        <summary class="user-info user-toggle__tittle">
+          <p class="user-info__email">jmonge@gmail.com</p>
+          <img
+            src="./assets/flechita.svg"
+            alt="bottom arrow"
+            class="bottom-arrow-icon bottom-arrow-icon--margin"
+          />
+        </summary>
+        <ul>
+          <a href="my-orders.html">
+            <li>My orders</li>
+          </a>
+          <a href="my-account.html">
+            <li>My account</li>
+          </a>
+          <a href="index.html">
+            <li class="user-sign-out">Sign out</li>
+          </a>
+        </ul>
+      </details>
+      <button class="shopping-cart-link">
         <img
           src="./assets/icon_shopping_cart_notification.svg"
           alt="Shopping cart notification icon"
           class="header__notificacion-icon header__notificacion-icon-margin"
         />
-      </a>
+      </button>
     </header>
     <main class="form-container">
       <div class="form-text form-text--left">

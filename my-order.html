@@ -13,19 +13,56 @@
     />
   </head>
   <body>
-    <header class="header form-container">
-      <a href="menu-mobile.html">
-        <img
-          src="./assets/icon_menu.svg"
-          alt="Menu icon"
-          class="header__menu-icon"
-        /> </a
-      ><a href="home.html"> <h2 class="my-order__tittle">My order</h2> </a
-      ><img
-        src="./assets/icon_shopping_cart_notification.svg"
-        alt="Shopping cart notification icon"
-        class="header__notificacion-icon"
+    <header class="header">
+      <img
+        src="./assets/icon_menu.svg"
+        alt="Menu icon"
+        class="header__menu-icon menu-anchor"
       />
+
+      <a href="home.html">
+        <img
+          src="./assets/logo_yard_sale.svg"
+          alt="Yard Sale logo"
+          class="header__logo header__logo--md"
+        />
+      </a>
+      <ul class="nav-links product-types">
+        <li class="product-types__name"><a href="#">All</a></li>
+        <li class="product-types__name"><a href="#">Clothes</a></li>
+        <li class="product-types__name"><a href="#">Electronics</a></li>
+        <li class="product-types__name"><a href="#">Furniture</a></li>
+        <li class="product-types__name"><a href="#">Toys</a></li>
+        <li class="product-types__name"><a href="#">Others</a></li>
+      </ul>
+      <details class="user-toggle">
+        <summary class="user-info user-toggle__tittle">
+          <p class="user-info__email">jmonge@gmail.com</p>
+          <img
+            src="./assets/flechita.svg"
+            alt="bottom arrow"
+            class="bottom-arrow-icon bottom-arrow-icon--margin"
+          />
+        </summary>
+        <ul>
+          <a href="my-orders.html">
+            <li>My orders</li>
+          </a>
+          <a href="my-account.html">
+            <li>My account</li>
+          </a>
+          <a href="index.html">
+            <li class="user-sign-out">Sign out</li>
+          </a>
+        </ul>
+      </details>
+      <button class="shopping-cart-link">
+        <img
+          src="./assets/icon_shopping_cart_notification.svg"
+          alt="Shopping cart notification icon"
+          class="header__notificacion-icon header__notificacion-icon-margin"
+        />
+      </button>
     </header>
     <main class="form-container">
       <div class="order-info-container">

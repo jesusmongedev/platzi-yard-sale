@@ -6,28 +6,34 @@ const $produtCard = document.querySelectorAll('.product-card')
 const $mobileMenuIcon = document.querySelector('.header__menu-icon')
 const $mobileMenu = document.querySelector('.menu-mobile')
 
-// When the user click the shopping cart button show the shopping details
-$shoppingButton.addEventListener('click', () => {
-  openCartDetails()
-})
-
-const openCartDetails = () => {
-  $cartContainer.classList.toggle('show-cart-container')
+// When the user click the shopping cart button show shopping details
+const showShoppingCart = () => {
+  console.log('working')
+  $cartContainer.classList.add('show-cart-container')
+  document.body.classList.add('no-scroll')
 }
-
-$leftArrowButton.addEventListener('click', () => {
-  openCartDetails()
-})
+// When the user click the left arrow icon  shopping details
+const hideShoppingCart = () => {
+  console.log('great')
+  $cartContainer.classList.remove('show-cart-container')
+  document.body.classList.remove('no-scroll')
+}
 
 // Show mobile menu when clicked
 const showMobileMenu = () => {
   console.log('first')
-  $mobileMenu.classList.toggle('menu-mobile--show')
+  document.body.classList.add('no-scroll')
+  $mobileMenu.classList.add('menu-mobile--show')
+}
+// Hide Mobile Menu
+const hideMobileMenu = () => {
+  document.body.classList.remove('no-scroll')
+  $mobileMenu.classList.remove('menu-mobile--show')
 }
 
-$mobileMenuIcon.addEventListener('click', () => {
-  showMobileMenu()
-})
+// $mobileMenuIcon.addEventListener('click', () => {
+//   showMobileMenu()
+// })
 
 // Change Icon source img when the click it
 $produtCard.forEach((e) => {

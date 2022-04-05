@@ -18,6 +18,7 @@
         src="./assets/icon_menu.svg"
         alt="Menu icon"
         class="header__menu-icon menu-anchor"
+        onclick="showMobileMenu()"
       />
 
       <a href="index.html">
@@ -61,11 +62,18 @@
           src="./assets/icon_shopping_cart_notification.svg"
           alt="Shopping cart notification icon"
           class="header__notificacion-icon header__notificacion-icon-margin"
+          onclick="showShoppingCart()"
         />
       </button>
     </header>
     <!-- Mobile menu start -->
     <div class="menu-mobile">
+      <img
+        src="./assets/x-icon.svg"
+        alt="close menu"
+        class="close-icon"
+        onclick="hideMobileMenu()"
+      />
       <h2 class="categories__tittle">Categories</h2>
       <ul class="menu-mobile__containers">
         <li><a href="home.html">All</a></li>
@@ -92,6 +100,7 @@
           class="left-arrow"
           src="https://svgshare.com/i/fcq.svg"
           alt="left arrow"
+          onclick="hideShoppingCart()"
         />
         <h2 class="form-text__tittle form-text__tittle--lg">Shopping cart</h2>
       </div>
