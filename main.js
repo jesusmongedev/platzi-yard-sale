@@ -1,10 +1,12 @@
 // Variables with the query selectors
+import { Products } from './data/products'
 const $shoppingButton = document.querySelector('.shopping-cart-link')
 const $cartContainer = document.querySelector('.shopping-cart-container')
 const $leftArrowButton = document.querySelector('.left-arrow')
 const $produtCard = document.querySelectorAll('.product-card')
 const $mobileMenuIcon = document.querySelector('.header__menu-icon')
 const $mobileMenu = document.querySelector('.menu-mobile')
+const $cardsWrapper = document.querySelector('.cards-container')
 
 // When the user click the shopping cart button show shopping details
 const showShoppingCart = () => {
@@ -31,10 +33,6 @@ const hideMobileMenu = () => {
   $mobileMenu.classList.remove('menu-mobile--show')
 }
 
-// $mobileMenuIcon.addEventListener('click', () => {
-//   showMobileMenu()
-// })
-
 // Change Icon source img when the click it
 $produtCard.forEach((e) => {
   let $addToCartIcon = e.querySelector('.cart-icon-img')
@@ -55,3 +53,6 @@ $produtCard.forEach((e) => {
         $removedFromCart.classList.toggle('removed-from-card--show')
   }
 })
+
+// Dynamic product card container
+console.log(Products)

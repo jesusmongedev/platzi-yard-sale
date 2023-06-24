@@ -45,6 +45,7 @@
 .shopping-cart-link {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .user-toggle {
