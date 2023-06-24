@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://svgshare.com/i/ehx.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="menu-mobile.html" class="menu-anchor">
+        <img
+          src="./assets/icon_menu.svg"
+          alt="Menu icon"
+          class="header__menu-icon"
+        /> </a
+      ><a href="index.html">
+        <img
+          src="./assets/logo_yard_sale.svg"
+          alt="Yard Sale logo"
+          class="header__logo header__logo--md"
+        />
+      </a>
+      <ul class="nav-links product-types">
+        <li class="product-types__name"><a href="home.html">All</a></li>
+        <li class="product-types__name"><a href="#">Clothes</a></li>
+        <li class="product-types__name"><a href="#">Electronics</a></li>
+        <li class="product-types__name"><a href="#">Furniture</a></li>
+        <li class="product-types__name"><a href="#">Toys</a></li>
+        <li class="product-types__name"><a href="#">Others</a></li>
+      </ul>
+      <div class="user-info">
+        <p class="user-info__email">jmonge@gmail.com</p>
+        <img
+          src="./assets/flechita.svg"
+          alt="bottom arrow"
+          class="bottom-arrow-icon bottom-arrow-icon--margin"
+        />
+      </div>
+      <img
+        src="./assets/icon_shopping_cart_notification.svg"
+        alt="Shopping cart notification icon"
+        class="header__notificacion-icon header__notificacion-icon-margin"
+      />
+    </header>
+    <main>
+      <section class="product-details-container">
+        <article class="product-card product-card--full-screen">
+          <div class="img-container">
+            <img
+              src="https://i.postimg.cc/brfRQFBp/Bitmap-2x.png"
+              alt="Retro refrigerator"
+              class="product-card__img product-card__img--lg"
+            />
+            <div class="oval-container">
+              <div
+                class="oval-container__figure oval-container__figure--active"
+              ></div>
+              <div class="oval-container__figure"></div>
+              <div class="oval-container__figure"></div>
+            </div>
+          </div>
+          <div class="product-card__info product-card__info--column">
+            <div class="card-description card-description--lg">
+              <p class="card-description-price">$ 100,00</p>
+              <p class="card-description-name">Retro refrigerator</p>
+            </div>
+            <p class="card-description__text">
+              With its functional and practical interior, this refrigerator also
+              fulfills a decorative function, adding personality and a
+              retro-vintage aesthetic to your kitchen or workplace.
+            </p>
+            <button class="primary-button primary-button--flex">
+              <img src="https://svgshare.com/i/f83.svg" alt="" /> Add to cart
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

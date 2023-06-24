@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit your account</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://svgshare.com/i/ehx.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./assets/icon_menu.svg"
+        alt="Menu icon"
+        class="header__menu-icon menu-anchor"
+      />
+
+      <a href="index.html">
+        <img
+          src="./assets/logo_yard_sale.svg"
+          alt="Yard Sale logo"
+          class="header__logo header__logo--md"
+        />
+      </a>
+      <ul class="nav-links product-types">
+        <li class="product-types__name"><a href="#">All</a></li>
+        <li class="product-types__name"><a href="#">Clothes</a></li>
+        <li class="product-types__name"><a href="#">Electronics</a></li>
+        <li class="product-types__name"><a href="#">Furniture</a></li>
+        <li class="product-types__name"><a href="#">Toys</a></li>
+        <li class="product-types__name"><a href="#">Others</a></li>
+      </ul>
+      <details class="user-toggle">
+        <summary class="user-info user-toggle__tittle">
+          <p class="user-info__email">jmonge@gmail.com</p>
+          <img
+            src="./assets/flechita.svg"
+            alt="bottom arrow"
+            class="bottom-arrow-icon bottom-arrow-icon--margin"
+          />
+        </summary>
+        <ul>
+          <a href="my-orders.html">
+            <li>My orders</li>
+          </a>
+          <a href="my-account.html">
+            <li>My account</li>
+          </a>
+          <a href="index.html">
+            <li class="user-sign-out">Sign out</li>
+          </a>
+        </ul>
+      </details>
+      <button class="shopping-cart-link">
+        <img
+          src="./assets/icon_shopping_cart_notification.svg"
+          alt="Shopping cart notification icon"
+          class="header__notificacion-icon header__notificacion-icon-margin"
+        />
+      </button>
+    </header>
+    <main class="form-container">
+      <div class="form-text form-text--left">
+        <h1 class="form-text__tittle">My account</h1>
+      </div>
+      <form action="index.html" class="form">
+        <label for="name" class="form__label">Name</label
+        ><input
+          type="text"
+          id="name"
+          placeholder="Jesus Monge"
+          required
+          class="form__input"
+        />
+        <label for="email" class="form__label">Email address</label
+        ><input
+          type="email"
+          id="email"
+          placeholder="jmonge.swe@gmail.com"
+          required
+          class="form__input"
+        />
+        <label for="password" class="form__label">Password</label
+        ><input
+          type="password"
+          id="password"
+          placeholder="************"
+          class="form__input"
+        />
+        <input
+          type="submit"
+          value="Save"
+          class="primary-button sign-up-button"
+        />
+      </form>
+    </main>
+  </body>
+</html>
